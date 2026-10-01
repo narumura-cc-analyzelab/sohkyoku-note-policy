@@ -1,0 +1,4 @@
+{
+  "$comment": "双極症ノートのお知らせです。アプリは起動時にここを読みます。notices に1件ずつ足すと、アプリの上部の帯に出ます。書き方：{\"id\": \"2026-10-xx-example\", \"title\": \"題\", \"body\": \"本文\", \"level\": \"normal か urgent（赤）\", \"action\": \"none / backup / store\", \"url\": \"store のときだけ apps.apple.com のURL\", \"from\": \"2026-10-01\", \"until\": \"2026-10-31\", \"minVersion\": \"1.3.3\", \"maxVersion\": \"1.3.3\"}。id・title・body は必須、それ以外は省略できます。形が間違っているお知らせは出ません。",
+  "notices": []
+}
