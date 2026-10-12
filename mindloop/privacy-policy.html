@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MINDLOOP Privacy Policy</title>
+  <style>
+    :root {
+      --paper: #f8f6f1;
+      --ink: #23252b;
+      --muted: #6e6a62;
+      --line: #dcd6cb;
+      color-scheme: light dark;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #0a0b0f;
+        --ink: #f2f3f5;
+        --muted: #8c919c;
+        --line: #2c303a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.8;
+      -webkit-text-size-adjust: 100%;
+      overflow-wrap: anywhere;
+    }
+
+    /* 本文の幅は、和文で1行40字ほど。欧文でも読みやすい長さ */
+    .page {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 64px 24px 96px;
+    }
+
+    /* 見出しは語の途中で折らない（「ポ／リシー」にしない）。折れ目は空白と読点だけ */
+    h2,
+    h3 {
+      word-break: keep-all;
+      text-wrap: balance;
+    }
+
+    /* 和文の本文は、文節で折る（対応しているブラウザだけ。Safari は前のまま） */
+    p:lang(ja),
+    li:lang(ja) {
+      word-break: auto-phrase;
+    }
+
+    .mark,
+    h2 {
+      font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", Georgia, serif;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    /* アプリの名前は、ホームの字と同じく字間を広げて置く */
+    .mark {
+      letter-spacing: .32em;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: .08em;
+      margin: 8px 0 0;
+    }
+
+    /* 言語の切り替え。狭い画面では3つずつ2段にして、縦の線をそろえる */
+    nav {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+      margin-top: 32px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+
+    /* 押せる高さは 44px（字 12px ＋ 上下の余白 16px） */
+    nav a {
+      padding: 12px 0;
+      line-height: 20px;
+      color: var(--ink);
+      font-size: 12px;
+      letter-spacing: .08em;
+      text-decoration: none;
+    }
+
+    section {
+      padding-top: 64px;
+    }
+
+    h3 {
+      font-size: 15px;
+      font-weight: 600;
+      margin: 32px 0 8px;
+    }
+
+    p,
+    ul {
+      margin: 8px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    a {
+      color: inherit;
+      text-underline-offset: 4px;
+    }
+
+    footer {
+      margin-top: 96px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- この頁は MINDLOOP の tool/build_privacy_policy_page.py で docs/プライバシーポリシー.md から作ります。手で直さないこと。 -->
+  <main class="page">
+    <header>
+      <h1 class="mark">MINDLOOP</h1>
+      <p class="small">Privacy Policy</p>
+    </header>
+    <nav aria-label="Language">
+      <a href="#ja">日本語</a>
+      <a href="#en">English</a>
+      <a href="#fr">Français</a>
+      <a href="#de">Deutsch</a>
+      <a href="#es">Español</a>
+      <a href="#pt">Português</a>
+    </nav>
+    <section id="ja" lang="ja">
+      <p class="small">日本語</p>
+      <h2>MINDLOOP プライバシーポリシー</h2>
+      <p class="small">最終改定日：2026年10月12日</p>
+      <p>MINDLOOP（以下「本アプリ」）は、あなたが入れた言葉で作品を作るアプリです。本アプリは、あなたの情報を集めません。</p>
+      <h3>1. 本アプリが扱う情報と、置き場所</h3>
+      <ul>
+        <li><strong>言葉と、その大切さ</strong>：あなたの端末の中にだけ保存します。端末の外へ送りません</li>
+        <li><strong>表示の設定</strong>（形・型・背景・テーマ・書体・流す言葉・出やすさ）：端末の中にだけ保存します</li>
+        <li><strong>ウィジェットの絵</strong>：ホーム画面のウィジェットに出すため、作品の絵を同じ端末の中の、本アプリとウィジェットだけが読める場所に置きます</li>
+        <li><strong>購入</strong>：「すべての形」の購入は Apple が処理します。本アプリは、購入しているかどうかだけを端末の中で確かめます。お支払いの情報を、本アプリは受け取りません</li>
+      </ul>
+      <h3>2. 送らないこと</h3>
+      <p>本アプリは、通信を使いません。あなたの言葉・設定・作品を、運営者を含む誰にも送りません。広告・利用状況の解析・追跡の仕組みは入っていません。</p>
+      <h3>3. 共有</h3>
+      <p>「画像を共有」を押したときだけ、作品の画像を iOS の共有の画面へ渡します。どこへ送るかは、あなたが選びます。</p>
+      <h3>4. 消すとき</h3>
+      <p>本アプリを削除すると、端末の中の言葉・設定・ウィジェットの絵も消えます。購入の記録は Apple のアカウントに残り、「購入を復元」で戻せます。</p>
+      <h3>5. お問い合わせ</h3>
+      <p>本アプリは、Shinji Narimura が提供しています。プライバシーについてのお問い合わせは、次のメールアドレスへご連絡ください。</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. 改定</h3>
+      <p>このポリシーを変えるときは、この頁で知らせます。</p>
+    </section>
+    <section id="en" lang="en">
+      <p class="small">English</p>
+      <h2>MINDLOOP Privacy Policy</h2>
+      <p class="small">Last updated: October 12, 2026</p>
+      <p>MINDLOOP ("the app") turns the words you enter into artwork. The app does not collect your information.</p>
+      <h3>1. What the app handles, and where it stays</h3>
+      <ul>
+        <li><strong>Your words and their importance</strong> are stored only on your device. They are never sent off the device.</li>
+        <li><strong>Display settings</strong> (shape, style, background, theme, typeface, word source, appearance shares) are stored only on your device.</li>
+        <li><strong>Widget images</strong>: to show the home screen widget, the app places images of your artwork in a storage area on the same device that only the app and its widget can read.</li>
+        <li><strong>Purchases</strong>: Apple processes the purchase of "All shapes". The app only checks on your device whether you own it. The app never receives your payment information.</li>
+      </ul>
+      <h3>2. What the app does not send</h3>
+      <p>The app does not use the network. It sends your words, settings, and artwork to no one, including us. It contains no advertising, analytics, or tracking.</p>
+      <h3>3. Sharing</h3>
+      <p>Only when you tap "Share image" does the app hand an image of your artwork to the iOS share sheet. You choose where it goes.</p>
+      <h3>4. Deleting</h3>
+      <p>Deleting the app removes your words, settings, and widget images from the device. Your purchase stays with your Apple account and can be restored with "Restore purchases".</p>
+      <h3>5. Contact</h3>
+      <p>The app is provided by Shinji Narimura. If you have any questions about privacy, please contact us at this email address.</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. Changes</h3>
+      <p>If this policy changes, this page will say so.</p>
+    </section>
+    <section id="fr" lang="fr">
+      <p class="small">Français</p>
+      <h2>Politique de confidentialité de MINDLOOP</h2>
+      <p class="small">Dernière mise à jour : 12 octobre 2026</p>
+      <p>MINDLOOP (« l’app ») transforme les mots que vous saisissez en œuvre. L’app ne collecte pas vos informations.</p>
+      <h3>1. Ce que l’app utilise, et où cela reste</h3>
+      <ul>
+        <li><strong>Vos mots et leur importance</strong> sont enregistrés uniquement sur votre appareil. Ils ne quittent jamais l’appareil.</li>
+        <li><strong>Les réglages d’affichage</strong> (forme, style, fond, thème, police, mots affichés, fréquence) sont enregistrés uniquement sur votre appareil.</li>
+        <li><strong>Images du widget</strong> : pour afficher le widget de l’écran d’accueil, l’app place des images de votre œuvre dans un espace de stockage du même appareil, que seuls l’app et son widget peuvent lire.</li>
+        <li><strong>Achats</strong> : Apple traite l’achat de « Toutes les formes ». L’app vérifie seulement, sur votre appareil, si vous le possédez. L’app ne reçoit jamais vos informations de paiement.</li>
+      </ul>
+      <h3>2. Ce que l’app n’envoie pas</h3>
+      <p>L’app n’utilise pas le réseau. Elle n’envoie vos mots, vos réglages ni vos œuvres à personne, y compris à nous. Elle ne contient ni publicité, ni outil d’analyse, ni suivi.</p>
+      <h3>3. Partage</h3>
+      <p>Ce n’est que lorsque vous touchez « Partager l’image » que l’app transmet une image de votre œuvre à la feuille de partage d’iOS. Vous choisissez où elle va.</p>
+      <h3>4. Suppression</h3>
+      <p>Supprimer l’app efface de l’appareil vos mots, vos réglages et les images du widget. Votre achat reste lié à votre compte Apple et peut être récupéré avec « Restaurer les achats ».</p>
+      <h3>5. Contact</h3>
+      <p>L’app est proposée par Shinji Narimura. Pour toute question sur la confidentialité, écrivez-nous à cette adresse e-mail.</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. Modifications</h3>
+      <p>Si cette politique change, cette page l’indiquera.</p>
+    </section>
+    <section id="de" lang="de">
+      <p class="small">Deutsch</p>
+      <h2>Datenschutzerklärung von MINDLOOP</h2>
+      <p class="small">Zuletzt aktualisiert: 12. Oktober 2026</p>
+      <p>MINDLOOP („die App“) macht aus den Worten, die du eingibst, ein Kunstwerk. Die App erhebt keine Daten über dich.</p>
+      <h3>1. Was die App verwendet und wo es bleibt</h3>
+      <ul>
+        <li><strong>Deine Worte und ihre Bedeutung</strong> werden nur auf deinem Gerät gespeichert. Sie verlassen das Gerät nie.</li>
+        <li><strong>Anzeigeeinstellungen</strong> (Form, Stil, Hintergrund, Farbschema, Schrift, fließende Worte, Häufigkeit) werden nur auf deinem Gerät gespeichert.</li>
+        <li><strong>Widget-Bilder</strong>: Damit das Widget auf dem Home-Bildschirm dein Werk zeigen kann, legt die App Bilder davon in einem Speicherbereich auf demselben Gerät ab, den nur die App und ihr Widget lesen können.</li>
+        <li><strong>Käufe</strong>: Apple wickelt den Kauf von „Alle Formen“ ab. Die App prüft nur auf deinem Gerät, ob du ihn besitzt. Zahlungsdaten erhält die App nie.</li>
+      </ul>
+      <h3>2. Was die App nicht sendet</h3>
+      <p>Die App nutzt kein Netzwerk. Sie sendet deine Worte, Einstellungen und Werke an niemanden – auch nicht an uns. Sie enthält keine Werbung, keine Analyse und kein Tracking.</p>
+      <h3>3. Teilen</h3>
+      <p>Nur wenn du auf „Bild teilen“ tippst, übergibt die App ein Bild deines Werks an das Teilen-Menü von iOS. Wohin es geht, entscheidest du.</p>
+      <h3>4. Löschen</h3>
+      <p>Wenn du die App löschst, werden deine Worte, Einstellungen und Widget-Bilder vom Gerät entfernt. Dein Kauf bleibt mit deinem Apple Account verknüpft und lässt sich mit „Käufe wiederherstellen“ zurückholen.</p>
+      <h3>5. Kontakt</h3>
+      <p>Die App wird von Shinji Narimura bereitgestellt. Wenn du Fragen zum Datenschutz hast, schreib uns an diese E-Mail-Adresse.</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. Änderungen</h3>
+      <p>Wenn sich diese Erklärung ändert, steht es auf dieser Seite.</p>
+    </section>
+    <section id="es" lang="es">
+      <p class="small">Español</p>
+      <h2>Política de privacidad de MINDLOOP</h2>
+      <p class="small">Última actualización: 12 de octubre de 2026</p>
+      <p>MINDLOOP («la app») convierte las palabras que escribes en una obra. La app no recopila tu información.</p>
+      <h3>1. Qué usa la app y dónde se guarda</h3>
+      <ul>
+        <li><strong>Tus palabras y su importancia</strong> se guardan solo en tu dispositivo. Nunca salen de él.</li>
+        <li><strong>Los ajustes de visualización</strong> (forma, estilo, fondo, tema, tipografía, palabras que fluyen, frecuencia) se guardan solo en tu dispositivo.</li>
+        <li><strong>Imágenes del widget</strong>: para mostrar el widget de la pantalla de inicio, la app guarda imágenes de tu obra en un espacio del mismo dispositivo que solo la app y su widget pueden leer.</li>
+        <li><strong>Compras</strong>: Apple gestiona la compra de «Todas las formas». La app solo comprueba, en tu dispositivo, si la tienes. La app nunca recibe tus datos de pago.</li>
+      </ul>
+      <h3>2. Qué no envía la app</h3>
+      <p>La app no usa la red. No envía tus palabras, ajustes ni obras a nadie, ni siquiera a nosotros. No contiene publicidad, análisis ni seguimiento.</p>
+      <h3>3. Compartir</h3>
+      <p>Solo cuando tocas «Compartir imagen», la app pasa una imagen de tu obra a la hoja para compartir de iOS. Tú eliges adónde va.</p>
+      <h3>4. Eliminar</h3>
+      <p>Al eliminar la app, se borran del dispositivo tus palabras, tus ajustes y las imágenes del widget. Tu compra queda en tu cuenta de Apple y puedes recuperarla con «Restaurar compras».</p>
+      <h3>5. Contacto</h3>
+      <p>La app la ofrece Shinji Narimura. Si tienes preguntas sobre privacidad, escríbenos a este correo electrónico.</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. Cambios</h3>
+      <p>Si esta política cambia, esta página lo indicará.</p>
+    </section>
+    <section id="pt" lang="pt">
+      <p class="small">Português</p>
+      <h2>Política de Privacidade do MINDLOOP</h2>
+      <p class="small">Última atualização: 12 de outubro de 2026</p>
+      <p>O MINDLOOP (“o app”) transforma as palavras que você digita em uma obra. O app não coleta suas informações.</p>
+      <h3>1. O que o app usa e onde fica</h3>
+      <ul>
+        <li><strong>Suas palavras e a importância delas</strong> ficam salvas apenas no seu aparelho. Elas nunca saem do aparelho.</li>
+        <li><strong>As configurações de exibição</strong> (forma, estilo, fundo, tema, tipografia, palavras que fluem, frequência) ficam salvas apenas no seu aparelho.</li>
+        <li><strong>Imagens do widget</strong>: para mostrar o widget da Tela de Início, o app guarda imagens da sua obra em um espaço do mesmo aparelho que só o app e o widget dele podem ler.</li>
+        <li><strong>Compras</strong>: a Apple processa a compra de “Todas as formas”. O app apenas verifica, no seu aparelho, se você a possui. O app nunca recebe seus dados de pagamento.</li>
+      </ul>
+      <h3>2. O que o app não envia</h3>
+      <p>O app não usa a rede. Ele não envia suas palavras, configurações nem obras a ninguém, nem mesmo para nós. Não há anúncios, análises nem rastreamento.</p>
+      <h3>3. Compartilhamento</h3>
+      <p>Só quando você toca em “Compartilhar imagem” o app entrega uma imagem da sua obra à planilha de compartilhamento do iOS. Você escolhe para onde ela vai.</p>
+      <h3>4. Exclusão</h3>
+      <p>Ao apagar o app, suas palavras, configurações e imagens do widget são removidas do aparelho. Sua compra continua na sua conta Apple e pode ser recuperada com “Restaurar compras”.</p>
+      <h3>5. Contato</h3>
+      <p>O app é oferecido por Shinji Narimura. Se tiver dúvidas sobre privacidade, escreva para este e-mail.</p>
+      <p><a href="mailto:c.c.analyze.lab@gmail.com">c.c.analyze.lab@gmail.com</a></p>
+      <h3>6. Alterações</h3>
+      <p>Se esta política mudar, esta página informará.</p>
+    </section>
+    <footer>© 2026 Shinji Narimura / Narimura CC Analyze Lab</footer>
+  </main>
+</body>
+</html>
